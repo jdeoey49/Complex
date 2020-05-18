@@ -1,1 +1,5 @@
-
+Conversion Operators = Cast Operators
+Object of one class -> Object of another class
+                    -> Object of a fundamental data type
+Complex::operator double() const {return real_;}
+         syntax   target type
